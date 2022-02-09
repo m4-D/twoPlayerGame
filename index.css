@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+.game-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.player {
+  border-radius: 20px;
+  width: 550px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+}
+
+span {
+  padding: 0;
+}
+
+#one {
+  background-color: orange;
+}
+
+#two {
+  background-color: red;
+}
+
+.outcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outcome > button {
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.outcome > p {
+  font-size: 1.6rem;
+}
